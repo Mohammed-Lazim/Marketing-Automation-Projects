@@ -1,6 +1,24 @@
 # Marketing Automation & Technical SEO Suite 🚀
 This repository contains a collection of Python-based tools designed to automate repetitive digital marketing tasks, perform competitor intelligence, and scale SEO operations.
 
+## 🛠 Project 4: AI-Powered Multilingual Ad Generator
+**File:** `ai_ad_generator.py`
+
+### Overview
+An "Intelligent Content Pipeline" that integrates the **Google Gemini AI API** with performance data to automatically generate high-converting, localized marketing copy.
+
+### Key Features
+*   **Dynamic Model Discovery:** Includes a custom scanning engine that queries the Google API to identify and verify active LLM models (e.g., Gemini 1.5 Flash).
+*   **Data-Driven Creative:** Automatically reads "Winning Ads" from the Day 1 Analytics report (`winning_ads_report.xlsx`) to provide context to the AI.
+*   **Multilingual & Cultural Intelligence:** Programmed to generate humorous, localized content in **Malayalam (മലയാളം)** and English, targeting specific regional pain points and cultural nuances.
+*   **API Security & Handling:** Implements robust error handling and UTF-8 encoding for cross-platform character support.
+
+### How to Run
+1. Obtain a Google AI Studio API Key.
+2. Install dependencies: `pip install pandas requests openpyxl`
+3. Run: `python ai_ad_generator.py`
+4. The script will output a `final_multilingual_ads.txt` file with ready-to-use ad copy.
+
 ## 🛠 Project 3: Professional SEO Automation Tool
 **File:** `search_automation.py`
 
